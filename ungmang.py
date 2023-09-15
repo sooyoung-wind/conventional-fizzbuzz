@@ -3,4 +3,5 @@ animals = [
         'b',
 ]
 
+print
 print('Hello','world')
