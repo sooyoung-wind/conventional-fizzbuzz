@@ -8,6 +8,8 @@ def do_fizzbuzz():
     나머지는 숫자 그대로를 출력합니다.
     """
     for i in range(1,20+1):
+        if i%15==0:
+            print('fizzbuzz')
         if i%3 == 0:
             print('fizz')
         elif i%5 ==0:
