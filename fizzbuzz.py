@@ -5,13 +5,13 @@ def do_fizzbuzz():
     3의 배수는 'fizz'
     5의 배수는 'buzz'
     15의 배수는 'fizzbuzz'
-    나머지는 숫자 그래도를 출력합니다.
+    나머지는 숫자 그대로를 출력합니다.
     """
     for i in range(1,20+1):
-        if i%3==0:
+        if i%3 == 0:
             print('fizz')
         else:
             print(i)
 
-if __name__ == '__main__':
+if __name__=='__main__':
     do_fizzbuzz()
